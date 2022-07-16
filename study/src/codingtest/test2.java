@@ -6,14 +6,11 @@ import java.util.Scanner;
 public class test2 {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		int a = 5;
 		
-		//double r = (int)(Math.random()*100+1);
-		//System.out.println(r);
-		
-		int num = sc.nextInt();
-		
-		
+		for(int i =1; i<5; i++) {
+			System.out.println(a-i);
+		}
 	}
 
 }
